@@ -1,0 +1,15 @@
+{
+  "name": "web-storage",
+  "version": "1.0",
+  "authors": [
+    "Brandon Hall <b@brandonhall.me>"
+  ],
+  "description": "Small wrapper for the Web Storage API that provides sanity checks and simpler API",
+  "main": "web-storage.js",
+  "keywords": [
+    "web storage", 
+    "local storage", 
+    "session storage"
+  ],
+  "license": "MIT"
+}
