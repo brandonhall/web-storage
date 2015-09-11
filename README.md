@@ -11,7 +11,7 @@ Small wrapper for the Web Storage API which provides safe access to localStorage
 
 WebStorage.js consists of two separate namespaces. One is `WebStorage.Local` and 
 the other is `WebStorage.Session`. The types of storage are very different and 
-you can read about them at MDN(https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
+you can read about them at [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API).
 
 #### LocalStorage Methods
 
