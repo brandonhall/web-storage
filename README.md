@@ -7,7 +7,7 @@ Small wrapper for the Web Storage API which provides safe access to localStorage
 * Ensures sessionStorage and localStorage is available and working before using it
 * Replace Web Storage API methods with a simple API of getters and setters
 
-### Usage Examples
+### Usage
 
 WebStorage.js consists of two separate namespaces. One is `WebStorage.Local` and 
 the other is `WebStorage.Session`. The types of storage are very different and 
