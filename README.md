@@ -6,6 +6,8 @@ Small wrapper for the Web Storage API which provides safe access to localStorage
 
 * Ensures sessionStorage and localStorage is available and working before using it
 * Replace Web Storage API methods with a simple API of getters and setters
+* Automatically stringify and parse JSON
+* Automatically convert boolean strings to proper booleans
 
 ### Usage
 
@@ -18,12 +20,14 @@ you can read about them at [MDN](https://developer.mozilla.org/en-US/docs/Web/AP
 1. Support check: `WebStorage.Local.enabled()`
 2. Set: `WebStorage.Local.set(name, value)`
 3. Get: `WebStorage.Local.get(name)`
+4. Remove: `WebStorage.Local.remove(name)`
 
 #### SessionStorage Methods
 
 1. Support check: `WebStorage.Session.enabled()`
 2. Set: `WebStorage.Session.set(name, value)`
 3. Get: `WebStorage.Session.get(name)`
+4. Remove: `WebStorage.Session.remove(name)`
 
 ### Why does this exist?
 
