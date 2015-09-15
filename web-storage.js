@@ -145,7 +145,7 @@
           throw new Error('name missing from WebStorage.Session.remove');
         }
 
-        if (this._localStorageTest()) {
+        if (this._sessionStorageTest()) {
           sessionStorage.removeItem(name);
         }
       },
